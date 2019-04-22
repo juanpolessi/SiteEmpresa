@@ -1,0 +1,26 @@
+
+.divTable{
+    width: 80%;
+}
+
+.react-grid-Container{
+    width: 100% !important;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.react-grid-Main{
+    height: 100%;
+}
+
+.react-grid-Grid {
+    overflow: auto !important;
+    height: 100%;
+}
+
+.react-grid-Canvas {
+    overflow: auto !important;
+    height: 100% !important;
+}
+

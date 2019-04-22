@@ -1,0 +1,36 @@
+.boxContent {
+  padding: 0 20px;
+  
+  background-color: #fff;
+}
+
+.boxCompany{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 10% 0px 10%;
+}
+
+.company {
+  margin: 10px;
+  width: 200px;
+  height: 250px;
+  list-style-type: none;
+  border: 1px solid #999;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.company:hover {  
+  background-color: #e0e0e0;
+}
+
+h1{
+  font-size: 20px;
+}
+
+
+

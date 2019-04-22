@@ -1,0 +1,13 @@
+.image {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-company {
+    width: 80%;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
