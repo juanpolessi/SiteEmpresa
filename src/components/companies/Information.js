@@ -6,7 +6,7 @@ class Information extends Component {
         return(
             <div className="info">
                 <label className="lblTitle">{this.props.title}</label>
-                <img className="imgInfo" src={this.props.image} />
+                <img alt="Company logo" className="imgInfo" src={this.props.image} />
                 <label className="lblInfo">{this.props.information}</label>
             </div>
         );

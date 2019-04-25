@@ -9,12 +9,12 @@ class Search extends Component{
         const { onCompanyChange } = this.props;
         onCompanyChange(event.target.value);
     }
-    
+
     render(){
         return(
             <div className="search">
                 <div className="logo-autopass">
-                    <img className="img-logo" src={autoPass}/>    
+                    <img alt="Autopass logo" className="img-logo" src={autoPass}/>
                 </div>
                 <div className="input-search">
                     <input type="text" onChange={this.handleInputChange}/>
