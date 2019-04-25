@@ -35,12 +35,12 @@ class Modal extends Component {
     return (
       <div className="backdrop" style={{backdropStyle}}>
         <div className="modal" style={{modalStyle}}>
-          <div className="modalHeader"> 
+          <div className="modalHeader">
             <label className="lblTitle">{this.props.company.nameCompany}</label>
             <span className="btnClose" onClick={this.props.onClose}>X</span>
           </div>
           <div className="modalContent">
-            <TableGridView company={this.props.company}/>
+            <TableGridView products={this.props.company.products}/>
             <CompanyInformations company={this.props.company}/>
           </div>
         </div>
