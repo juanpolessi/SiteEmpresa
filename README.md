@@ -4,7 +4,7 @@ It's a Companies Datails web application made with [React](https://github.com/fa
 ## Companies List
 ![Companies List](/Empresa.jpg)
 
-## Grid Products
+## Companies Details
 ![Companies Details](/Empresa Detalhes.jpg)
 
 You can run the project using in the root folder the command after install the npm dependencies
